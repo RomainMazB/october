@@ -62,7 +62,7 @@ abstract class DataSourceBase
     }
 
     /**
-     * Rewinds the the data source to the first record.
+     * Rewinds the data source to the first record.
      * Use this method with the readRecords() method.
      */
     public function reset()
