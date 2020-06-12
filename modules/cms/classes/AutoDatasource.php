@@ -232,7 +232,7 @@ class AutoDatasource extends Datasource implements DatasourceInterface
             if (isset($paths[$path])) {
                 $datasourceIndex = $i;
 
-                // Set isDeleted to the inverse of the the path's existance flag
+                // Set isDeleted to the inverse of the path's existance flag
                 $isDeleted = !$paths[$path];
 
                 // Break on first datasource that can handle the path
